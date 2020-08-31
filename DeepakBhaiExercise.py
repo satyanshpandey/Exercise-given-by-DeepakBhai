@@ -1,0 +1,1 @@
+rupees = int ( input ( "Enter Number of chocolates" ) )chocolates = rupeeswrapper = chocolateswhile wrapper != 0 :	if wrapper % 3 == 0 :		chocolates = chocolates + wrapper // 3		wrapper = wrapper//3	else:		if (wrapper<=2):			break		chocolates = chocolates+wrapper//3		wrapper = wrapper%3 + wrapper//3print("in ",rupees," rupees","chocolates ",chocolates)
